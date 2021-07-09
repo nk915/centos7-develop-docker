@@ -13,6 +13,7 @@ RUN yum install -y postgresql-devel openssl-devel libcurl-devel libcurl
 RUN yum install -y mysql-devel mysql-lib
 RUN yum install -y libssh2-devel openssh-server
 RUN yum install -y json-c json-c-devel json-glib-devel
+RUN yum install -y openldap-devel
 
 # Root Password 지정 필요
 # RUN passwd root
