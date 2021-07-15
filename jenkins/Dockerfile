@@ -11,7 +11,7 @@ RUN yum install initscripts -y
 RUN yum install jenkins java-11-openjdk-devel -y 
 RUN yum install sshpass -y
 
-RUN systemctl daemon-reload
-RUN systemctl status jenkins
+#RUN systemctl daemon-reload
+#RUN systemctl status jenkins
 
 CMD ["/sbin/init"]
